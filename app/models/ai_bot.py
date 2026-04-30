@@ -6,6 +6,9 @@ from app.db.base_class import Base
 class AiBot(Base):
     __tablename__ = "ai_bots"
 
+
+
+
     #Primary Key
     bot_id = Column(Integer, primary_key=True, index=True)
     
