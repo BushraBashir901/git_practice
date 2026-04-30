@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 from app.db.base_class import Base
-
+#helllooooooooooo changes
 class AiBot(Base):
     __tablename__ = "ai_bots"
 
